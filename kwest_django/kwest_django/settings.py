@@ -86,9 +86,9 @@ WSGI_APPLICATION = 'kwest_django.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'test1', 
-        'USER': 'postgres',
-        'PASSWORD': 'BM0_ch0pz',
+        'NAME': '<DB Name>', 
+        'USER': '<DB User>',
+        'PASSWORD': '<DB Password>',
         'HOST': 'localhost', 
         'PORT': '5432',
     }
