@@ -139,5 +139,5 @@ class Floor(models.Model):
     floortype = models.CharField(max_length=50, choices=Type.choices)  # This field type is a guess.
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'floor'
